@@ -1,7 +1,18 @@
 import java.util.Scanner;
 import java.io.IOException;
 
+/**
+ * Interactive command-line application for searching place names using a PlaceNameBST.
+ * Allows the user to load a dataset from a CSV file and search for place names.
+ */
 public class PlaceSearchBST {
+
+    /**
+     * Entry point for the PlaceSearchBST application.
+     * Presents a menu allowing the user to load data, search, or quit.
+     *
+     * @param args not used
+     */
         public static void main(String[] args) {
             PlaceNameBST storageBST = new PlaceNameBST();
             Scanner s = new Scanner(System.in);

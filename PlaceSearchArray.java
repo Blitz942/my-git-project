@@ -1,6 +1,18 @@
 import java.util.Scanner;
 import java.io.IOException;
+
+/**
+ * Interactive command-line application for searching place names using a PlaceNameArray.
+ * Allows the user to load a dataset from a CSV file and search for place names.
+ */
 public class PlaceSearchArray {
+
+    /**
+     * Entry point for the PlaceSearchArray application.
+     * Presents a menu allowing the user to load data, search, or quit.
+     *
+     * @param args not used
+     */
     public static void main(String[] args) {
     PlaceNameArray storageArray = new PlaceNameArray(15000);
 
